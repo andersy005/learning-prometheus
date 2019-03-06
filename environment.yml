@@ -1,0 +1,12 @@
+name: prometheus
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - jupyterlab
+  - tornado==5.1.1
+  - prometheus_client
+  - watermark
+  - pip:
+      - bash_kernel
